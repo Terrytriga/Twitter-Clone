@@ -1,7 +1,10 @@
+// small inline SVG placeholder avatar (data URI)
+const DEFAULT_AVATAR = "data:image/svg+xml;utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='80'%20height='80'%3E%3Crect%20fill='%23cccccc'%20width='100%25'%20height='100%25'/%3E%3Ctext%20x='50%25'%20y='50%25'%20dominant-baseline='middle'%20text-anchor='middle'%20font-size='30'%20fill='%23000000'%3ET%3C/text%3E%3C/svg%3E";
+
 export const tweetsData = [   
     {
         handle: `@TrollBot66756542 💎`,
-        profilePic: `images/Mine.jpeg`,
+    profilePic: DEFAULT_AVATAR,
         likes: 27,
         retweets: 10,
         tweetText: `Buy Bitcoin, ETH Make 💰💰💰 low low prices. 
@@ -13,19 +16,19 @@ export const tweetsData = [
     },    
     {
         handle: `@Elon ✅`,
-        profilePic: `images/musk.png`,
+    profilePic: DEFAULT_AVATAR,
         likes: 6500,
         retweets: 234,
         tweetText: `I need volunteers for a one-way mission to Mars 🪐. No experience necessary🚀`,
         replies: [
                   {
                 handle: `@TomCruise ✅`,
-                profilePic: `images/tcruise.png`,
+                profilePic: DEFAULT_AVATAR,
                 tweetText: `Yes! Sign me up! 😎🛩`,
             },
                   {
                 handle: `@ChuckNorris ✅`,
-                profilePic: `images/chucknorris.jpeg`,
+                profilePic: DEFAULT_AVATAR,
                 tweetText: `I went last year😴`,
             },
         ],
@@ -35,19 +38,19 @@ export const tweetsData = [
     },
         {
         handle: `@NoobCoder12`,
-        profilePic: `images/flower.png`,
+    profilePic: DEFAULT_AVATAR,
         likes: 10,
         retweets: 3,
         tweetText: `Are you a coder if you only know HTML?`,
         replies: [
             {
                 handle: `@StackOverflower ☣️`,
-                profilePic: `images/overflow.png`,
+                profilePic: DEFAULT_AVATAR,
                 tweetText: `No. Obviosuly not. Go get a job in McDonald's.`,
             },
             {
                 handle: `@YummyCoder64`,
-                profilePic: `images/love.png`,
+                profilePic: DEFAULT_AVATAR,
                 tweetText: `You are wonderful just as you are! ❤️`,
             },
         ],
